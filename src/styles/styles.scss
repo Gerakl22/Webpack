@@ -1,0 +1,24 @@
+@import "./roboto.scss";
+
+$color-red: red;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.container {
+  background-color: green;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  h1 {
+    color: $color-red;
+    text-align: center;
+  }
+}
